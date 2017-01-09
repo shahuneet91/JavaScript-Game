@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 27, 2016, 2:49:18 PM
+    Author     : shahu
+*/
+
+ .containerBody{
+                margin-top: 20px;
+                border: solid;
+                border-color:  #003366;
+                border-width: 2px;
+                height: 500px;
+                border-radius: 30px;
+                }
+            .backgroundImg{
+                 background-image: url(Images/bgImage.png);
+                background-repeat: repeat;
+                
+            }
+            .partition{
+                border-bottom-style: solid;
+               border-bottom-width: 2px;
+               border-bottom-color: #003366;
+                height: 20%;
+            }
+            .logo{
+                margin-left: 5px;
+                margin-top: 10px;
+                width: 30%;
+                 }
+                 .questions{
+                     padding-top: 2%;
+                     padding-right: 2%;
+                     padding-left: 2%;
+                     font-family: cursive;
+                     font-size: medium;
+                     color: #ff0033;
+                 }
+                 .priceWon{
+                     width: fit-content;
+                     float: right;
+                     border: solid;
+                     border-color: red;
+                     border-width: 1px;
+                     color: #33cc00;
+                 }
+               .btn1Style{
+                    padding-top: 10%;
+                     padding-bottom: 20%;
+                  }
+               
+               .options{
+                     padding-top: 20px;
+                 }
+                 
+                 
+               .chancesLabel{
+
+                     visibility: hidden;
+                     /*margin-left: 15px;*/
+                     border: solid;
+                     border-color: #003366;
+                     border-width: 2px;
+                     height:30px;
+                     width: 30px;
+                     color: #ff0033;
+                 }
+               .gameName{
+                     font-family: fantasy;
+                     font-weight: bolder;
+                     font-size: xx-large;
+                                                            
+                 }
+                 .btnDiv{
+                     margin-top:75px;
+                 }
+                 .selectSpan:hover
+                 {
+                     border: #ff0033;
+                     border-style: solid;
+                     border-width: 2px;
+                 }

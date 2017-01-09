@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="gameJS.js" type="text/javascript"></script>
+        <link href="gameCSS.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="initialize(); randomQuestion()">
+    <div class="container col-sm-9 col-sm-offset-3">
+        <div class="containerBody col-sm-9 backgroundImg">
+            <div class="partition">
+                <div class="logo">
+                    <img style="width: 80px; height: 80px; float: left" src="Images/gameLogo.jpg" alt=""/>
+                </div>
+                <div class="gameName col-sm-8 col-sm-offset-2">
+                    <span> Play and Get A Job</span>
+                </div>
+            </div>
+                <div class="partition questions">
+                    <label  id="questionsHere">
+                      Here comes the Question, Change it using Java Script, Here comes the Question, Change it using Java Script?
+                    </label>
+                    <label id="amount" class="priceWon" >$000</label>
+                </div>
+                <div style="float: left">  
+                    <input type="button" onclick="nextQuestion()" class="btn btn-primary" id ="nxt" value="Next >>"/>
+                </div>
+                <div id ="star" style="float: right">
+                    <span id="fifty50Span" style="visibility: visible">
+                        <img class="selectSpan" style="width: 50px; height: 50px" 
+                             src="Images/starImage.gif" id="fifty50Img" onclick="fifty50()" alt=""/> 
+                           50%-50%
+                    </span>
+                    <span id="audianceSpan" style="visibility: visible">
+                        <img class="selectSpan"  style="width: 50px; height: 50px"
+                             src="Images/starImage.gif" id="audianceImg" onclick="audiancePole()" alt=""/>
+                        Public Pole
+                    </span>
+                </div>
+        
+        <div class="btnDiv" style="text-align: center">
+            <div class="col-sm-6"  >
+                <div id="btn1" class="col-sm-12" >
+                    <input type="button" class="btn-lg btn-primary" id ="opt1" onclick="selectAnswer(this.id)" value="option1"/>
+                    <label id ="chancesLabel1" style="margin-left: 10px" class="chancesLabel"></label>
+                    <label id="btn1Label" class="hidden"></label>
+                </div>
+                <div id="btn2" class="col-sm-12" style="margin-top: 75px">
+                    <input type="button" class="btn-lg btn-primary" id ="opt2" onclick="selectAnswer(this.id)" value="option1"/>
+                    <label id ="chancesLabel2"  style="margin-left: 10px" class="chancesLabel" ></label>
+                    <label id="btn2Label" class="hidden"></label>
+                </div>
+            </div> 
+             
+            <div class="col-sm-6"  >
+                <div id="btn3" class="col-sm-12" >
+                    <input type="button" class="btn-lg btn-primary" id ="opt3" onclick="selectAnswer(this.id)" value="option1"/>
+                    <label id ="chancesLabel3" style="margin-left: 10px" class="chancesLabel" ></label>
+                    <label id="btn3Label" class="hidden"></label>
+                </div>
+                <div id="btn4" class="col-sm-12" style="margin-top: 75px">
+                    <input type="button" class="btn-lg btn-primary" id ="opt4" onclick="selectAnswer(this.id)" value="option1"/>
+                    <label id ="chancesLabel4" style="margin-left: 10px" class="chancesLabel" ></label>
+                    <label id="btn4Label" class="hidden"></label>
+                </div>
+           </div> 
+        </div>
+            
+            
+            
+        </div>
+        </div>
+    </body>
+</html>
